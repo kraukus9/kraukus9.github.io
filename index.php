@@ -1,4 +1,17 @@
-    <video-js id="my_video_1" class="vjs-default-skin" controls preload="auto" width="100%" height="100%"> </video-js>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.11.7/video-js.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.11.7/video.min.js"></script>
+	<script src="https://unpkg.com/@videojs/http-streaming@1.3.0/dist/videojs-http-streaming.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-contrib-eme@4.0.1/dist/videojs-contrib-eme.cjs.min.js"></script>
+    <title>Test VideJS DRM</title>
+</head>
+<body>
+<video-js id="my_video_1" class="vjs-default-skin" controls preload="auto" width="100%" height="100%"> </video-js>
 
     <link href="//vjs.zencdn.net/7.2/video-js.min.css" rel="stylesheet">
     <script src="//vjs.zencdn.net/7.2/video.min.js"></script>
@@ -16,3 +29,5 @@
             }
         });
     </script>
+	</body>
+	</html>
