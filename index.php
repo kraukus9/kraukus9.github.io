@@ -29,5 +29,5 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
-echo $result;
+str_split($result,);
 ?>
