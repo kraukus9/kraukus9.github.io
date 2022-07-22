@@ -29,5 +29,6 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
-str_split($result,);
+$array = $str_split($result);
+echo $array;
 ?>
