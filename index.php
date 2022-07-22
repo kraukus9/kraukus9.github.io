@@ -29,6 +29,12 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
-$splitzy = explode(" ",$result);
-echo $splitzy;
+
+$my_array = json_decode($result);
+
+    // print the array
+
+    echo "The converted array is: <br>";
+
+    var_dump($my_array);  
 ?>
