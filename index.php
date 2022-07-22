@@ -30,5 +30,5 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 $decoded_json = json_decode($result, false);
-echo $server_url;
+echo $decoded_json;
 ?>
