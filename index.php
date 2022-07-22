@@ -29,5 +29,6 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
-echo $result;
+$decoded_json = json_decode($result, false);
+echo $server_url;
 ?>
