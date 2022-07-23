@@ -30,4 +30,5 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 var_dump(json_decode($result, true)); 
+
 ?>
