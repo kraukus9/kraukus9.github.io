@@ -32,6 +32,6 @@ curl_close($ch);
 // var_dump(json_decode($result, true)); 
 
 $str = "Hello world. It's a beautiful day.";
-print_r (explode(" ",$result));
+print_r (explode('" "',$result));
 
 ?>
