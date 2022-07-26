@@ -62,7 +62,7 @@ $str_arr = explode ("KKK1", $replace);
 
 
     <script>
-        var strm = <?php echo $str_arr[61]; ?>; //outputting string foo in context of JS
+        var strm = '<?php echo $str_arr[61]; ?>'; //outputting string foo in context of JS
 		var cert = '<?php echo $str_arr[71]; ?>'; //outputting string foo in context of JS
                                  //must wrap in quotes so that it is still string foo when JS does execute
                                  //when this DOES execute in the browser, PHP will have already completed all processing and exited
@@ -81,10 +81,10 @@ $str_arr = explode ("KKK1", $replace);
                 var player = this;
                 player.eme();
                 player.src({
-                    src: 'strm',
+                    src: strm,
                     type: 'application/dash+xml',                    
                     keySystems: {
-                      'com.widevine.alpha': 'cert',                     
+                      'com.widevine.alpha': cert,                     
                     }
                 });
 
