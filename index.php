@@ -34,7 +34,7 @@ curl_close($ch);
 // print_r (explode(",",$result));
 
 $json = json_decode($result, true);
-echo $json->streams->1->media_url;
+echo $json->streams->media_url;
 // echo $json['streams']['1']['media_url'];
 
 ?>
