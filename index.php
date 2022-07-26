@@ -32,7 +32,7 @@ curl_close($ch);
 // echo $result;
 //var_dump(json_decode($result, true));
 $replace = str_replace('"', '|', $result);
-$str_arr = explode ("|", $result); 
+$str_arr = explode ("|", $replace); 
 print_r($str_arr);
 
 ?>
