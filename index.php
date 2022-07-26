@@ -29,7 +29,7 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
-echo $result
+// echo $result
 // var_dump(json_decode($result, true)); 
 // print_r (explode(",",$result));
 
