@@ -29,12 +29,8 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
-// echo $result
+echo $result
 // var_dump(json_decode($result, true)); 
 // print_r (explode(",",$result));
-
-$json = json_decode($result, true);
-echo $json->streams->media_url;
-// echo $json['streams']['1']['media_url'];
 
 ?>
