@@ -31,7 +31,8 @@ if (curl_errno($ch)) {
 curl_close($ch);
 // echo $result;
 //var_dump(json_decode($result, true));
-$str_arr = explode (",", $result); 
+$replace = str_replace('"', '|', $result);
+$str_arr = explode ("|", $result); 
 print_r($str_arr);
 
 ?>
