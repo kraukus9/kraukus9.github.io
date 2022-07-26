@@ -30,7 +30,7 @@ if (curl_errno($ch)) {
 }
 curl_close($ch);
 echo $result
-// var_dump(json_decode($result, true)); 
+var_dump(json_decode($result, JSON_PRETTY_PRINT));   //cange to "true"
 // print_r (explode(",",$result));
 
 ?>
