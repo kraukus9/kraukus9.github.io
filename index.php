@@ -29,9 +29,10 @@ if (curl_errno($ch)) {
     echo 'Error:' . curl_error($ch);
 }
 curl_close($ch);
+echo $result
 // var_dump(json_decode($result, true)); 
+// print_r (explode(",",$result));
 
-$str = "Hello world. It's a beautiful day.";
-print_r (explode(",",$result));
+// $json = json_decode($result, true);
 
 ?>
