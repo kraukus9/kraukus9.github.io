@@ -33,6 +33,7 @@ curl_close($ch);
 //var_dump(json_decode($result, true));
 // print_r (explode(",",$result));
 
-$returnValue = preg_split('":"', $result);
+$array = preg_split('":"', $result);
+echo $array[13]
 
 ?>
