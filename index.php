@@ -34,6 +34,6 @@ echo $result
 // print_r (explode(",",$result));
 
 $json = json_decode($result, true);
-echo $json['streams']['data']['0'];
+echo $json['streams']['1']['media_url'];
 
 ?>
