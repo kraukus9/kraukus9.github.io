@@ -31,11 +31,7 @@ if (curl_errno($ch)) {
 curl_close($ch);
 // echo $result;
 //var_dump(json_decode($result, true));
-// print_r (explode(",",$result));
-
-var_dump(preg_split(",", $result));
-
-// $array = preg_split('":"', $result);
-// echo $array;
+$str_arr = explode (",", $result); 
+print_r($str_arr);
 
 ?>
