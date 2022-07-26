@@ -34,6 +34,13 @@ $replace = str_replace('"', 'KKK1', $result);
 // Explodes in to array by random code
 $str_arr = explode ("KKK1", $replace); 
 //print_r($str_arr);
-echo $str_arr[61];
-echo $str_arr[71];
-?>
+//echo $str_arr[61];
+//echo $str_arr[71];
+?><script>
+    var strm = '<?php echo $str_arr[61]; ?>'; //outputting string foo in context of JS
+                                 //must wrap in quotes so that it is still string foo when JS does execute
+                                 //when this DOES execute in the browser, PHP will have already completed all processing and exited
+    var cert = '<?php echo $str_arr[71]; ?>'; //outputting string foo in context of JS
+                                 //must wrap in quotes so that it is still string foo when JS does execute
+                                 //when this DOES execute in the browser, PHP will have already completed all processing and exited
+</script>
