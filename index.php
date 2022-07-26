@@ -34,6 +34,6 @@ curl_close($ch);
 // print_r (explode(",",$result));
 
 $array = preg_split('":"', $result);
-echo $array[13]
+echo $array;
 
 ?>
