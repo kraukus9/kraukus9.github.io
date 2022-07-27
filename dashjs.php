@@ -136,6 +136,6 @@ $str_arr = explode ("KKK1", $replace);
         init();
     });
 </script>
-<script src="../highlighter.js"></script>
+<script src="highlighter.js"></script>
 </body>
 </html>
