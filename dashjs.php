@@ -59,14 +59,13 @@ $str_arr = explode ("KKK1", $replace);
         function init() {
         var protData = {
             "com.widevine.alpha": {
-                "serverURL": "cert",
+                "serverURL": "<?php echo $str_arr[71]; ?>",
                 priority: 0
             }
             };
             var video,
                 player,
-                url = "<?php echo $str_arr[61]; ?>",
-		cert ="<?php echo $str_arr[71]; ?>";
+                url = "<?php echo $str_arr[61]; ?>";
 
             video = document.querySelector("video");
             player = dashjs.MediaPlayer().create();
