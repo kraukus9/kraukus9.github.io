@@ -57,7 +57,8 @@ $str_arr = explode ("KKK1", $replace);
 ?>
 	<script class="code">
         var strm = '<?php echo $str_arr[61]; ?>'; //outputting string foo in context of JS
-	var cert = '<?php echo $str_arr[71]; ?>'; //outputting string foo in context of JS
+	var cert = <?php echo $str_arr[71]; ?>; //outputting string foo in context of JS
+		
         function init() {
             var protData = {
                 "com.widevine.alpha": {
@@ -67,7 +68,7 @@ $str_arr = explode ("KKK1", $replace);
             };
             var video,
                 player,
-                url = "strm";
+                url = strm;
 
             video = document.querySelector("video");
             player = dashjs.MediaPlayer().create();
