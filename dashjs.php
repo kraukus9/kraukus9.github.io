@@ -55,34 +55,36 @@ $str_arr = explode ("KKK1", $replace);
 //echo $str_arr[61];
 //echo $str_arr[71];
 ?>
-	<script class="code">	
-        function init() {
+<script>
+    function init() {
         var protData = {
             "com.widevine.alpha": {
                 "serverURL": "<?php echo $str_arr[71]; ?>",
+                "httpRequestHeaders": {
+                },
                 priority: 0
             }
-            };
-            var video,
-                player,
-                url = "<?php echo $str_arr[61]; ?>";
+        };
+        var video,
+            player,
+            url = "<?php echo $str_arr[61]; ?>";
 
-            video = document.querySelector("video");
-            player = dashjs.MediaPlayer().create();
-            player.initialize(video, url, true);
-            player.setProtectionData(protData);
-        }
+        video = document.querySelector("video");
+        player = dashjs.MediaPlayer().create();
+        player.initialize(video, url, true);
+        player.setProtectionData(protData);
+    }
 
-        function check() {
-            if (location.protocol === 'http:' && location.hostname !== 'localhost') {
-                var out = 'This page has been loaded under http. This might result in the EME APIs not being available to the player and any DRM-protected content will fail to play. ' +
-                    'If you wish to test manifest URLs that require EME support, then <a href=\'https:' + window.location.href.substring(window.location.protocol.length) + '\'>reload this page under https</a>.'
-                var div = document.getElementById('http-warning');
-                div.innerHTML = out;
-                div.style.display = ''
-            }
+    function check() {
+        if (location.protocol === 'http:' && location.hostname !== 'localhost') {
+            var out = 'This page has been loaded under http. This might result in the EME APIs not being available to the player and any DRM-protected content will fail to play. ' +
+                'If you wish to test manifest URLs that require EME support, then <a href=\'https:' + window.location.href.substring(window.location.protocol.length) + '\'>reload this page under https</a>.'
+            var div = document.getElementById('http-warning');
+            div.innerHTML = out;
+            div.style.display = ''
         }
-    </script>
+    }
+</script>
 </head>
 <body>
 
