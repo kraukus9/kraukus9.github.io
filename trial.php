@@ -68,6 +68,12 @@ $str_arr = explode ("KKK1", $replace);
 
         video = document.querySelector("video");
         player = dashjs.MediaPlayer().create();
+        /* restart playback in muted mode when auto playback was not allowed by the browser */
+        player.on(dashjs.MediaPlayer.events.PLAYBACK_NOT_ALLOWED, function (data) {
+            console.log('Playback did not start due to auto play restrictions. Muting audio and reloading');
+            video.muted = true;
+            player.initialize(video, url, true);
+        });
         player.initialize(video, url, true);
         player.setProtectionData(protData);
     }
