@@ -60,8 +60,6 @@ $str_arr = explode ("KKK1", $replace);
         var protData = {
             "com.widevine.alpha": {
                 "serverURL": "<?php echo $str_arr[71]; ?>",
-                "httpRequestHeaders": {
-                },
                 priority: 0
             }
         };
