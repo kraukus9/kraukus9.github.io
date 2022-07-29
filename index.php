@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>StreamKrew</title>
+	<title>Reelioz - StreamKrew</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="no-referrer" name="referrer">
