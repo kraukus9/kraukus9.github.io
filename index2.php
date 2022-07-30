@@ -2,16 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>StreamKrew</title>
+	<title>Reelioz - StreamKrew</title>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="no-referrer" name="referrer">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="robots" content="noindex">
+	<meta name="googlebot" content="noindex">
+	<meta name="robots" content="noindex">
+	<meta name="googlebot" content="noindex">
 	<link href="/files/genie.ico" rel="icon" type="image/x-icon">
 	<link href="/files/genie.ico" rel="shortcut icon" type="image/x-icon">
 	<link href="/files/site-boootstrap.min.css" media="screen" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+	           this.top.location !== this.location && (this.top.location = this.location);
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js">
-	</script>
+
 </head>
 <body>
 	<?php include_once("files/header.php"); ?>
@@ -21,9 +31,8 @@
 			<div class="col-xs-12 text-center"></div>
 			<div class="col-xs-12 col-sm-9">
 				<div class="embed-responsive embed-responsive-16by9">
-					<?php
-echo '<iframe width="100%" height="100%" src="/strm/' . htmlspecialchars($_GET["strm"]) . '.php" frameborder="0" scrolling="no" allowfullscreen></iframe>';
-?>
+				<?php
+				echo '<iframe referrerpolicy='unsafe-url' allow='encrypted-media' width='100%' height='100%' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' allow="autoplay" src=' . htmlspecialchars($_GET["strm"]) . '.php"></iframe>';?>
 				</div>
 				                    <p class="text-center"><!-- A mesage could be here.... or not. --></p> 
 			</div>
@@ -35,6 +44,7 @@ echo '<iframe width="100%" height="100%" src="/strm/' . htmlspecialchars($_GET["
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>              
+
 </body>
 </html>
