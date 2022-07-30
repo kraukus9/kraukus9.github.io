@@ -91,7 +91,7 @@ $str_arr = explode ("KKK1", $replace);
 </head>
 <body>
 
-                <div id="videoController" class="video-controller unselectable">
+                <div id="video" class="video unselectable">
     <div id="playPauseBtn" class="btn-play-pause" title="Play/Pause">
         <span id="iconPlayPause" class="icon-play"></span>
     </div>
