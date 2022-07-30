@@ -14,7 +14,7 @@
 	</script>
 </head>
 <body>
-	<?php include_once("/files/header.php"); ?>
+	<?php include_once("files/header.php"); ?>
 	<div class="container-fluid">
 		<div class="row">
 		<br>
