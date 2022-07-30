@@ -91,21 +91,7 @@ $str_arr = explode ("KKK1", $replace);
 </head>
 <body>
 
-                <div id="video" class="video unselectable">
-    <div id="playPauseBtn" class="btn-play-pause" title="Play/Pause">
-        <span id="iconPlayPause" class="icon-play"></span>
-    </div>
-    <span id="videoTime" class="time-display">00:00:00</span>
-    <div id="fullscreenBtn" class="btn-fullscreen control-icon-layout" title="Fullscreen">
-        <span class="icon-fullscreen-enter"></span>
-    </div>
-    <div id="bitrateListBtn" class="control-icon-layout" title="Bitrate List">
-        <span class="icon-bitrate"></span>
-    </div>
-    <input type="range" id="volumebar" class="volumebar" value="1" min="0" max="1" step=".01"/>
-    <div id="muteBtn" class="btn-mute control-icon-layout" title="Mute">
-        <span id="iconMute" class="icon-mute-off"></span>
-    </div>
+<video controls="true"></video>
 
 </main>
 
