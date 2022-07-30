@@ -32,7 +32,7 @@
 			<div class="col-xs-12 col-sm-9">
 				<div class="embed-responsive embed-responsive-16by9">
 				<?php
-				echo '<iframe referrerpolicy='unsafe-url' allow='encrypted-media' width='100%' height='100%' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' allow="autoplay" src=' . htmlspecialchars($_GET["strm"]) . '.php"></iframe>';?>
+				echo '<iframe referrerpolicy='unsafe-url' allow='encrypted-media' width='100%' height='100%' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' allow="autoplay" src="/strm/' . htmlspecialchars($_GET["strm"]) . '.php"></iframe>';?>
 				</div>
 				                    <p class="text-center"><!-- A mesage could be here.... or not. --></p> 
 			</div>
