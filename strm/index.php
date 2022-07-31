@@ -18,6 +18,17 @@
 	<link href="../files/site-boootstrap.min.css" media="screen" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	< ?php
+
+function redirectTohttps() {
+
+if($_SERVER[‘HTTPS’]!=”on”) {
+
+$redirect= “https://”.$_SERVER[‘HTTP_HOST’].$_SERVER[‘REQUEST_URI’];
+
+header(“Location:$redirect”); } }
+
+?>
 	<script>
 	           this.top.location !== this.location && (this.top.location = this.location);
 	</script>
