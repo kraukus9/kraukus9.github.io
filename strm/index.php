@@ -24,9 +24,7 @@
 
 </head>
 <body>
-		< ?php
-
-function redirectTohttps() {
+		<?php function redirectTohttps() {
 
 if($_SERVER[‘HTTPS’]!=”on”) {
 
