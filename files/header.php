@@ -12,6 +12,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="https://reelioz.herokuapp.com/">HOME</a></li>
 			<li class><a href="http://thestreamkrew.ml/">THESTREAMKREW.ML</a></li>
+		    	<li class><a href="https://reelioz.herokuapp.com/strm?channel=world-fishing-network">WORLD FISHING NETWORK</a></li>
 			
                         <!-- Break -->
 						<!-- Break -->
