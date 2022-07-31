@@ -18,7 +18,13 @@
 	<link href="../files/site-boootstrap.min.css" media="screen" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	< ?php
+	<script>
+	           this.top.location !== this.location && (this.top.location = this.location);
+	</script>
+
+</head>
+<body>
+		< ?php
 
 function redirectTohttps() {
 
@@ -29,12 +35,6 @@ $redirect= “https://”.$_SERVER[‘HTTP_HOST’].$_SERVER[‘REQUEST_URI’];
 header(“Location:$redirect”); } }
 
 ?>
-	<script>
-	           this.top.location !== this.location && (this.top.location = this.location);
-	</script>
-
-</head>
-<body>
 	<?php include_once("../files/header.php"); ?>
 	<div class="container-fluid">
 		<div class="row">
