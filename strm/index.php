@@ -13,9 +13,9 @@
 	<meta name="googlebot" content="noindex">
 	<meta name="robots" content="noindex">
 	<meta name="googlebot" content="noindex">
-	<link href="/files/genie.ico" rel="icon" type="image/x-icon">
-	<link href="/files/genie.ico" rel="shortcut icon" type="image/x-icon">
-	<link href="/files/site-boootstrap.min.css" media="screen" rel="stylesheet">
+	<link href="../files/genie.ico" rel="icon" type="image/x-icon">
+	<link href="../files/genie.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="../files/site-boootstrap.min.css" media="screen" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script>
