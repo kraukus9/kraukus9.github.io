@@ -28,7 +28,7 @@ $headers = array();
 $headers[] = 'Authority: api-services.freecast.com';
 $headers[] = 'Accept: application/json, text/plain, */*';
 $headers[] = 'Accept-Language: en-US,en;q=0.9';
-$headers[] = 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU5MTQ5MTgyLCJqdGkiOiIwZjYxZjI5OGYxNDk0NjdlYTUwNTc0MDk1OGQ4MTQzYSIsInVzZXJfaWQiOjQyMDE0OX0.KL6tejiyz_9Sem3dP4x8wIH63GuAlL2R3ajTwY4cc6c';
+$headers[] = 'Authorization: Bearer <?php include_once("../files/tokens/selecttv-auth.php"); ?>';
 $headers[] = 'Origin: https://selecttv.freecast.com';
 $headers[] = 'Referer: https://selecttv.freecast.com/';
 $headers[] = 'Sec-Ch-Ua: ^^.Not/A)Brand^^\";v=^^\"99^^\",';
@@ -37,7 +37,7 @@ $headers[] = 'Sec-Ch-Ua-Platform: ^^Windows^^\"\"';
 $headers[] = 'Sec-Fetch-Dest: empty';
 $headers[] = 'Sec-Fetch-Mode: cors';
 $headers[] = 'Sec-Fetch-Site: same-site';
-$headers[] = 'Sotalcloud-Token: <?php include_once("../files/helps/selecttv-token.php"); ?>';
+$headers[] = 'Sotalcloud-Token: <?php include_once("../files/tokens/selecttv-token.php"); ?>';
 $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
