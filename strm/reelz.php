@@ -37,7 +37,7 @@ $headers[] = 'Sec-Ch-Ua-Platform: ^^Windows^^\"\"';
 $headers[] = 'Sec-Fetch-Dest: empty';
 $headers[] = 'Sec-Fetch-Mode: cors';
 $headers[] = 'Sec-Fetch-Site: same-site';
-$headers[] = 'Sotalcloud-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Imo4UXIxZkJSaHVDeGUwYUZMc25NeWJZQ255ZGgyamdrIn0.XNAn_D9rKEg7cM-6gQmErVTZw5bRovHNdEnQfKxQGQw';
+$headers[] = 'Sotalcloud-Token: <?php include_once("../files/helps/selecttv-token.php"); ?>';
 $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
