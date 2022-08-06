@@ -5,7 +5,7 @@
     <title>Test Flight</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/4.4.1/dash.all.debug.min.js"></script>
-	<script src="/controlbar.js"></script>
+	<script src="/ControlBar.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
