@@ -31,7 +31,7 @@
 			<div class="col-xs-12 text-center"></div>
 			<div class="col-xs-12 col-sm-9">
 				<div class="embed-responsive embed-responsive-16by9"> 
-					<iframe referrerpolicy='unsafe-url' allow='encrypted-media' width='100%' height='100%' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' allow="autoplay" src='/strm/reelz.php'></iframe>
+					<iframe referrerpolicy='unsafe-url' allow='encrypted-media' width='100%' height='100%' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' allow="autoplay" src='https://embedstream.me/fedex-st-jude-championship-main-feed-second-round-stream-1'></iframe>
 				</div>
 				                    <p class="text-center"><!-- A mesage could be here.... or not. --></p> 
 			</div>
