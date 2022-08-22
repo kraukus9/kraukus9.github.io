@@ -28,7 +28,7 @@ $headers = array();
 $headers[] = 'Authority: api-services.freecast.com';
 $headers[] = 'Accept: application/json, text/plain, */*';
 $headers[] = 'Accept-Language: en-US,en;q=0.9';
-$headers[] = 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYwNjg3MzU1LCJqdGkiOiI3ZGYzYjRkMTUwYmI0MDFjYTgwN2QyYWY1YjM2OGE3NSIsInVzZXJfaWQiOjQzMTgwM30.Rdbp8ut9pIPeqwaZEYDueHuUkmItLGaeP2K741nL1Fc';
+$headers[] = 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjYxMjAxNTc5LCJqdGkiOiIyZmQzNmI1MzE0M2E0ZTkwOWY3Y2QzOTEyNjc5MTE0NiIsInVzZXJfaWQiOjQzNTEwMn0.C3g-pWUiS2KGbauNUasSRSkenl8iwqhnoc-_8IYejj0';
 $headers[] = 'Origin: https://selecttv.freecast.com';
 $headers[] = 'Referer: https://selecttv.freecast.com/';
 $headers[] = 'Sec-Ch-Ua: ^^.Not/A)Brand^^\";v=^^\"99^^\",';
@@ -37,7 +37,7 @@ $headers[] = 'Sec-Ch-Ua-Platform: ^^Windows^^\"\"';
 $headers[] = 'Sec-Fetch-Dest: empty';
 $headers[] = 'Sec-Fetch-Mode: cors';
 $headers[] = 'Sec-Fetch-Site: same-site';
-$headers[] = 'Sotalcloud-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Imw2VU9PSGNBeGVsUmxQQm5ERkMzNEgxQmt4MXUzaVVmIn0.BakL7GJP3ZU4eFp8sPH37awamT7-W3qlXLYO2ed4Ycc';
+$headers[] = 'Sotalcloud-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Im9QaFB5YVVwVDRqT1hIRnJqUkpXU2RhN3F1RWgybjNOIn0.KsW1DBjfQ-fry1FjM9YqKINkNOtMy-L7i8fDQ28N9ZQ';
 $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     
