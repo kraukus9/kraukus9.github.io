@@ -35,7 +35,7 @@ curl_close($ch);
 $replace = str_replace('"', 'KKK1', $result);
 // Explodes in to array by random code
 $str_arr = explode ("KKK1", $replace); 
-//print_r($str_arr);
+print_r($str_arr);
 //echo $str_arr[61];
 //echo $str_arr[71];
 ?>
