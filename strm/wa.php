@@ -55,8 +55,9 @@ $str_arr = explode ("KKK1", $replace);
 //print_r($str_arr);
 //echo $str_arr[61];
 //echo $str_arr[71];
+print_r $headers;
 ?>
-print_r $headers
+
   <?php echo $str_arr[71]; ?>
 </body>
 </html>
