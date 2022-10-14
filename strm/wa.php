@@ -19,6 +19,8 @@
 $auth = file_get_contents("../files/tokens/selecttv-auth.txt");
 $token = file_get_contents("../files/tokens/selecttv-token.txt");
 $poop = 'Authorization: Bearer $auth';
+echo $auth;
+echo $token;
 echo $poop;
 ?>
 
