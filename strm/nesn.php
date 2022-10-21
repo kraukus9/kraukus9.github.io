@@ -19,7 +19,7 @@ var video = document.getElementById('video');
         });
         hls.loadSource('https://nesnhd.akamaized.net/hls/live/2093906/nesnhd/master.m3u8');
         hls.attachMedia(video);
-        hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+        hls.on(Hls.Events.MANIFEST_PARSED, function () {
           video.muted = false;
           video.play();
         });
