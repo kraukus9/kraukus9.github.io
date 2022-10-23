@@ -30,7 +30,7 @@ $headers = array();
 $headers[] = 'Authority: api-services.freecast.com';
 $headers[] = 'Accept: application/json, text/plain, */*';
 $headers[] = 'Accept-Language: en-US,en;q=0.9';
-$headers[] = 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY2NDAzNjM2LCJqdGkiOiJkYmY1N2ViOTA0ZTM0Zjk1YjExOTAxYjg3MTgyNTk4NiIsInVzZXJfaWQiOjQ1Mjg2NX0.An0qSjRoq1RdTI27efwz-1HzAHwnOp0Fh6xjKpBzPGU';
+$headers[] = 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY2NTc0MDc3LCJqdGkiOiI5NmU0MGJjMzNjMzQ0MzNhYjkzZjMxYmRkZWFjMmVlZSIsInVzZXJfaWQiOjQ1Mjg2NX0.rBCTZrY5RAaHbzfo9SP1pd7hNdJBdh5Rf2A5pufrMxI';
 $headers[] = 'Origin: https://watch.freecast.com';
 $headers[] = 'Referer: https://watch.freecast.com/';
 $headers[] = 'Sec-Ch-Ua: ^^.Not/A)Brand^^\";v=^^\"99^^\",';
