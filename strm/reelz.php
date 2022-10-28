@@ -30,7 +30,7 @@ $headers = array();
 $headers[] = 'Authority: api-services.freecast.com';
 $headers[] = 'Accept: application/json, text/plain, */*';
 $headers[] = 'Accept-Language: en-US,en;q=0.9';
-$headers[] = 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY2NTc0MDc3LCJqdGkiOiI5NmU0MGJjMzNjMzQ0MzNhYjkzZjMxYmRkZWFjMmVlZSIsInVzZXJfaWQiOjQ1Mjg2NX0.rBCTZrY5RAaHbzfo9SP1pd7hNdJBdh5Rf2A5pufrMxI';
+$headers[] = 'Authorization: Bearer Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MDA4MTM1LCJqdGkiOiI0ZWFmZDZjYjA0Y2Y0YTIyOWJlMWM1ZTBhNjAxYzQ4NCIsInVzZXJfaWQiOjQ1Mzc1Mn0.9t7bAkAEsyiWGQbqwhqd1Q_N6Ber41AL4Qa5bCOjS5U';
 $headers[] = 'Origin: https://watch.freecast.com';
 $headers[] = 'Referer: https://watch.freecast.com/';
 $headers[] = 'Sec-Ch-Ua: ^^.Not/A)Brand^^\";v=^^\"99^^\",';
@@ -39,7 +39,7 @@ $headers[] = 'Sec-Ch-Ua-Platform: ^^Windows^^\"\"';
 $headers[] = 'Sec-Fetch-Dest: empty';
 $headers[] = 'Sec-Fetch-Mode: cors';
 $headers[] = 'Sec-Fetch-Site: same-site';
-$headers[] = 'Sotalcloud-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVOZ2I4dUdCV0hWVEpzbEx0VEtwYzJJV3BKZVVpb1V3In0._Z9E95D22Qm8VMlDVYrrYh10Dpeyz7h_1ywdHrMKEbM';
+$headers[] = 'Sotalcloud-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFtN3dLUG5MVUg5WUNFTHo0a2pRZXB3T3ZoazBIQW91In0.E6DBO9A-KDlFDztDc_VlFRsNdhhWft8yheWFQ84lOvM';
 $headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36';
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
